@@ -16,10 +16,8 @@
         "symfony/expression-language": "6.4.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.4.*",
-        "symfony/monolog-bundle": "^3.10",
         "symfony/runtime": "6.4.*",
         "symfony/twig-bundle": "6.4.*",
-        "symfony/validator": "6.4.*",
         "symfony/yaml": "6.4.*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
@@ -73,6 +71,13 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.64"
+        "phpdocumentor/reflection-docblock": "^5.6",
+        "phpstan/phpdoc-parser": "^2.3",
+        "symfony/maker-bundle": "^1.64",
+        "symfony/monolog-bundle": "^3.10",
+        "symfony/property-access": "6.4.*",
+        "symfony/property-info": "6.4.*",
+        "symfony/serializer": "6.4.*",
+        "symfony/validator": "6.4.*"
     }
 }
